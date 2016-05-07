@@ -5,7 +5,7 @@ This code runs on an Arduino Mega in a hardware unit I built consisting of poten
 
 The Arduino code sets up the inputs and outputs and detects changes made to the analog inputs (buttons, pots)
 
-It continuosly prints the values to serial, in a format specified in the Chuck code.
+It continuously prints the values to serial, in a format specified in the Chuck code.
 
 The Chuck program picks up the data from serial and compares it to the previous values received. If values have changed a MIDI message is created
 and sent through a virtual MIDI port to be received in Ableton (or any other MIDI receiving program)
