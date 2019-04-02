@@ -1,6 +1,4 @@
-  /*  Tim Williams
-    CMPO381 Major Project
-    Ableton session controller Version 1.0  */
+  /* Ableton session controller */
 
 const int numberButtons = 8;   // set number of buttons. can be changed, specify pin numbers in arrays below
 const int numberFaders = 10; // set number of slide volume level pots      ''      ''
